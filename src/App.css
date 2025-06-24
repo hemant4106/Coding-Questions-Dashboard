@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  line-height: 1.6;
+}
+
+div {
+  padding: 0.5rem 2rem;
+}
+
+div > div {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #61dafb;
+  border-bottom: 2px solid #61dafb;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #dcdcaa;
+  margin-top: 1rem;
+}
+
+a {
+  color: #9cdcfe;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 1rem;
+ gap: 10px;
+}
+.qTitles li{
+color: #9cdcfe;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 1rem;
+ gap: 10px;
+}
+.qTitles{
+    column-count: 3;        /* Number of vertical columns */
+  column-gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #2d2d2d ;
+  padding: 20px 0 20px 60px;
+  border-radius: 10px;
+  margin: 0px;
+}
+.q{
+    height: 25px;
+    margin: 0px;
+    padding: 0px;
+
+}
+a:hover {
+  color: #4fc3f7;
+}
+
+.qTitles li {
+  list-style: none;
+padding: 5px 0px;
+}
+
+pre {
+  background-color: #2d2d2d;
+  color: #d4d4d4;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  margin-top: 0.5rem;
+  overflow-x: auto;
+}
+
+ul {
+  margin-top: 2rem;
+  padding-left: 0;
+}
+
+.Navbar {
+  border-bottom: 1px solid #3a3a3a;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 1rem;
+}
+
+.Navbar a {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar a:hover {
+  background-color: #1b384a;
+}
+
+.prevnext {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.prev {
+  width: 22px;
+}
+
+.next {
+  width: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  div {
+    padding: 0.5rem 1rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+  .qTitles{
+    display: flex;
+    flex-direction: column;
+  height: 60vh;
+  justify-content: left;
+  align-items: flex-start;
+  overflow: scroll;
+  scroll-behavior: smooth;
+   transition: ease-in-out;
+ 
+}
+
+  .Navbar {
+    font-size: 18px;
+  }
+
+  .Navbar a {
+    height: 45px;
+    font-size: 0.95rem;
+  }
+
+  pre {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+
+  .prevnext {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+}
+
+
+
+.dashboardHeading{
+    text-align: center;
+    font-size: 35px;
+    color:#dcdcaa;
+    font-weight: 500;
+     border-bottom: 1px solid #3a3a3a;
+}
+
